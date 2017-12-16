@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>reference</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>HCSServlet.reference</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Payment_action</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>HCSServlet.Payment_action</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>result</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>HCSServlet.result</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>viewReport_action</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>HCSServlet.viewReport_action</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>viewMReport_action</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>HCSServlet.viewMReport_action</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>reference</servlet-name>
+    <url-pattern>/servlet/reference</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Payment_action</servlet-name>
+    <url-pattern>/servlet/Payment_action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>result</servlet-name>
+    <url-pattern>/servlet/result</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>viewReport_action</servlet-name>
+    <url-pattern>/servlet/viewReport_action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>viewMReport_action</servlet-name>
+    <url-pattern>/servlet/viewMReport_action</url-pattern>
+  </servlet-mapping>
+
+</web-app>
